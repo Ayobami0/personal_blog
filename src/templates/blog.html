@@ -1,0 +1,11 @@
+{{define "head"}}
+<link rel="stylesheet" type="text/css" href="/static/css/blog.css" />
+{{end}} {{define "body"}}
+<div class="blog c-col">
+  <div class="blog-title c-col">
+    <h1>{{.Title}}</h1>
+    <p class="outline-text">{{.DateModified}}</p>
+  </div>
+  <div class="blog-content">{{.Content}}</div>
+</div>
+{{end}}

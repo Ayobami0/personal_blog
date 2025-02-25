@@ -1,0 +1,14 @@
+{{define "head"}}
+<link rel="stylesheet" type="text/css" href="/static/css/blogs.css" />
+{{end}} {{define "body"}}
+<div class="container c-col">
+  <div class="blog-list">
+    {{range $blog := .}}
+    <li class="blog-item">
+      <a class="blog-link slide-border" href="/blogs/{{$blog.Title}}">{{$blog.Title}}</a>
+      <p class="outline-text">{{$blog.DateModified}}</p>
+    </li>
+    {{end}}
+  </div>
+</div>
+{{end}}

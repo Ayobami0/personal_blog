@@ -1,0 +1,29 @@
+.blog-list {
+  height: 100%;
+  padding: 1em 8em;
+}
+
+.blog-item {
+  position: relative;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.blog-link {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #c7d3dd;
+}
+
+.blog-date {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #c7d3dd;
+}
+
+.blog-item:nth-last-child(n + 2) {
+  margin-bottom: 0.6em;
+}

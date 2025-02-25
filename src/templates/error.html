@@ -1,0 +1,9 @@
+{{define "head"}}
+<link rel="stylesheet" type="text/css" href="/static/css/error.css" />
+{{end}} {{define "body"}}
+<div class="error-body">
+  <p class="error-code">{{.Code}}</p>
+  <p class="error-msg">{{.Message}}</p>
+  <a href="/">Return home</a>
+</div>
+{{end}}

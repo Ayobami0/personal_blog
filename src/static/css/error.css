@@ -1,0 +1,21 @@
+.error-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-code {
+  color: red;
+  font-size: 8em;
+  margin: 0.3em;
+}
+
+.error-msg {
+  margin-top: 0.2em;
+  font-size: 1em;
+}
+
+.error-body a {
+  text-decoration: none;
+}

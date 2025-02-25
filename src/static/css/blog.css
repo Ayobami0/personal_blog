@@ -1,0 +1,23 @@
+.blog {
+  align-items: flex-start;
+  gap: 2;
+  padding: 1em 8em;
+  height: 100%;
+}
+
+.blog-title {
+  display: flex;
+}
+
+.blog-title h1 {
+  margin-bottom: 0.2em;
+}
+
+.blog-title p {
+  margin: 0;
+}
+
+.blog-content p {
+  text-align: justify;
+  line-height: 1.6em;
+}

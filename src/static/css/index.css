@@ -1,0 +1,30 @@
+h1 {
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #558B6E;
+}
+
+.profile-card {
+  display: flex;
+  gap: 2.5em;
+}
+
+.profile-avatar {
+  background-image: url("/static/img/profile.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  border: 1px solid #D7E2EA;
+  height: 9em;
+  width: 9em;
+}
